@@ -1,5 +1,5 @@
 #!/bin/sh
-LIST_OF_APPS="byobu git build-essential"
+LIST_OF_APPS="byobu git build-essential mlocate"
 
 apt-get install $LIST_OF_APPS -y
 
@@ -11,5 +11,7 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 echo 'export rvm_prefix="$HOME"' > /root/.rvmrc
 echo 'export rvm_path="$HOME/.rvm"' >> /root/.rvmrc
 curl -L get.rvm.io |rvm_path=/opt/rvm bash -s stable
+
 source /etc/profile.d/rvm.sh
 
+rvm install stable

@@ -1,5 +1,5 @@
 #!/bin/sh
-LIST_OF_APPS="byobu git build-essential mlocate ruby-full nodejs"
+LIST_OF_APPS="byobu git build-essential mlocate ruby-full"
 
 curl -sL https://deb.nodesource.com/setup_9.x | bash -
 apt-get install $LIST_OF_APPS -y
@@ -9,4 +9,4 @@ echo ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDAmknr81vYo4UU39IP+ABIsP7TN4gGceOb5cE
 byobu-enable
 
 gem install fortune lolcat
-
+updatedb

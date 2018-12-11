@@ -1,5 +1,5 @@
 #!/bin/sh
-LIST_OF_APPS="byobu git build-essentials"
+LIST_OF_APPS="byobu git build-essential"
 
 apt-get install $LIST_OF_APPS -y
 

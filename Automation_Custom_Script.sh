@@ -14,4 +14,4 @@ curl -L get.rvm.io |rvm_path=/opt/rvm bash -s stable
 
 source /etc/profile.d/rvm.sh
 
-rvm install stable
+rvm install ruby

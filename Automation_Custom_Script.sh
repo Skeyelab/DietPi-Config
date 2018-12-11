@@ -10,4 +10,3 @@ byobu-enable
 
 gem install fortune lolcat
 
-npm install -g cowsay
